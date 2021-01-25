@@ -11,4 +11,4 @@ This is a basic analyst for texts. It analyzes:
 - Number of lines
 
 
-<h3> our text should be written in the text file (yourText.txt) and then you can run the program and analyze the text. </h3>
+<h3> Your text should be written in the text file (yourText.txt) and then you can run the program and analyze that text. </h3>
