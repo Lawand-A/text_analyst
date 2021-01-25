@@ -2,9 +2,13 @@
 This is a basic analyst for texts. It analyzes:
 - Number of digits
 - How often each digit was repeated
+- How often each letter was repeated
 - Number of vowels and text
 - Number of consonants
-- A number of capital letters
+- Number of capital letters
 - Number of small letters
 - Number of all letters
 - Number of lines
+
+
+# your text should be written in the text file (yourText.txt) and then you can run the program and analyze the text.
