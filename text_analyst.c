@@ -3,7 +3,6 @@
 #include <stdio.h>
 
 
-
 void counting_letters (){
     int nletter[26]; 
     int i = 0, letter = 0; 
@@ -25,8 +24,7 @@ void counting_letters (){
     
     FILE  *myFile = fopen("yourText.txt","r");
     
-    while ((i  = fgetc(myFile) ) != EOF) { //While not End Of File
-    
+    while ((i  = fgetc(myFile) ) != EOF) { //While not End Of File   
          if (i >= 'a' && i <= 'z') { 
               nletter[i - 'a']++; 
               letter++;
@@ -61,10 +59,8 @@ void counting_letters (){
          i++; 
      } 
      
-    printf("\n== The number of digits in your text is (%d) ==\n\n========================================\n\n", digit);
-     
-    i = 0; 	
-    	
+    printf("\n== The number of digits in your text is (%d) ==\n\n========================================\n\n", digit);    
+    i = 0; 	    	
     printf("=== Letter analysis ===\n\nNumber of repetitions\n");
     
     while (i < 26) { 
@@ -72,18 +68,14 @@ void counting_letters (){
          i++; 
      } 
      
-     printf("\n=== Details ===\nThere are %d vowels in your text \nThere are %d consonants in your text \nThere are %d capital letters in your text \nThere are %d small letters in your text \nThere are %d letters in your text \nThere are %d lines in your text \n=========================================\n\n", sum_vol, sum_cons, big_letter, small_letter ,letter, line);
-     
-     
+     printf("\n=== Details ===\nThere are %d vowels in your text \nThere are %d consonants in your text \nThere are %d capital letters in your text \nThere are %d small letters in your text \nThere are %d letters in your text \nThere are %d lines in your text \n=========================================\n\n", sum_vol, sum_cons, big_letter, small_letter ,letter, line);     
      fclose(myFile);
 }
 
 
 
 int main(void) { 
-
 printf("\n======================================================================================\n==     ##   #    #   ##   #      #   # ###### ######    ##### ###### #    # #####   ==\n==    #  #  ##   #  #  #  #       # #      #  #           #   #       #  #    #     ==\n==   #    # # #  # #    # #        #      #   #####       #   #####    ##     #     ==\n==   ###### #  # # ###### #        #     #    #           #   #        ##     #     ==\n==   #    # #   ## #    # #        #    #     #           #   #       #  #    #     ==\n==   #    # #    # #    # ######   #   ###### ######      #   ###### #    #   #     ==\n======================================================================================\n\n\n");                                                     
-
     counting_letters();
     
     return 0;  
