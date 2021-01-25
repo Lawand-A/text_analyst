@@ -14,3 +14,5 @@ This is a basic analyst for texts. It analyzes:
 <h3> Your text should be written in the text file (yourText.txt) and then you can run the program and analyze that text. </h3>
 
 ![](picture1.png)
+
+![](picture2.png)
