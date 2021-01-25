@@ -3,7 +3,7 @@ This is a basic analyst for texts. It analyzes:
 - Number of digits
 - How often each digit was repeated
 - How often each letter was repeated
-- Number of vowels and text
+- Number of vowels in the text
 - Number of consonants
 - Number of capital letters
 - Number of small letters
