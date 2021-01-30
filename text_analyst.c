@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 
-
 void counting_letters (){
     int nletter[26]; 
     int i = 0, letter = 0; 
@@ -71,7 +70,6 @@ void counting_letters (){
      printf("\n=== Details ===\nThere are %d vowels in your text \nThere are %d consonants in your text \nThere are %d capital letters in your text \nThere are %d small letters in your text \nThere are %d letters in your text \nThere are %d lines in your text \n=========================================\n\n", sum_vol, sum_cons, big_letter, small_letter ,letter, line);     
      fclose(myFile);
 }
-
 
 
 int main(void) { 
