@@ -40,7 +40,7 @@ void counting_letters (){
               big_letter++;             
               if (i == 'A' || i == 'E' || i == 'I' || i == 'O' || i == 'U'){
                   sum_vol++;
-              } else if(!(i == 'A' || i == 'E' || i == 'I' || i == 'O' || i == 'U')){
+              } else {
                   sum_cons++;
               }         
          } else if (i == '\n'){
